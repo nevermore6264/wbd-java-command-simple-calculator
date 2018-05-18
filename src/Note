@@ -1,0 +1,7 @@
+Mẫu thiết kế này luôn có 3 lớp gắn liền với nhau, đó là Client, Invoker và Receiver:
+
+   - Client tạo đối tượng Command và cung cấp các thông tin cần thiết để gọi các yêu cầu vào một thời điểm nào đó.
+
+   - Invoker quyết định lúc nào các yêu cầu này được gọi.
+
+   - Receiver chứa các yêu cầu cần được thực hiện.
